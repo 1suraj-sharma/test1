@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <!-- Favicon code start -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="mask-icon" type="" href="assets/svg/logo-pin.svg" color="#111">
+    <!-- Favicon code end -->
+    <!-- stylesheet on our server Start -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/minimize.css">
+    <!-- stylesheet on our server end -->
+    <!-- stylesheet online Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- stylesheet online end -->
+</head>
+
+<body>
+    <!-- Nav code start -->
+    <nav class="main-nav">
+        <ul>
+            <li><a class="signin" href="#0">Sign Up</a></li>
+            <li><a class="signup" href="#0">Sign In</a></li>
+        </ul>
+    </nav>
+    <!-- Nav code end -->
+    <!-- Form code start -->
+    <div class="user-modal is-visible">
+        <div class="user-modal-container">
+            <ul class="switcher">
+                <li><a href="#0" class="selected">Sign Up</a></li>
+                <li><a href="#0">Log In</a></li>
+            </ul>
+
+            <div id="signup">
+                <p class="title">Welcome Back!</p>
+                <form class="form">
+                    <p class="fieldset">
+                        <label class="image-replace email" for="signin-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signin-email" placeholder="E-mail *" type="email" required>
+                        <span class="error-message">An account with this email address does not exist!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace password" for="signin-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signin-password" placeholder="Password *" type="password" required>
+                        <a href="#0" class="hide-password">Show</a>
+                        <span class="error-message">Wrong password! Try again.</span>
+                    </p>
+
+                    <p class="fieldset" style="padding-bottom: 1em;">
+                        <label for="Forgot Password?"><a href="#0">Forgot Password?</a></label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width" value="LOG IN" type="submit">
+                    </p>
+                </form>
+
+                <!-- <a href="#0" class="close-form">Close</a> -->
+            </div>
+
+            <div id="login" class="is-selected">
+                <p class="title">Sign Up for Free</p>
+                <form class="form">
+                    <p class="fieldset">
+                        <label class="image-replace username" for="signup-username">First Name</label>
+                        <input class="has-padding-username has-border" id="signup-username" placeholder="First Name *" type="text" required>
+                        <span class="error-message">Your username can only contain numeric and alphabetic symbols!</span>
+
+                        <label class="image-replace username" for="signup-username">Last Name</label>
+                        <input class="has-padding-username has-border" id="signup-username" placeholder="Last Name *" type="text" required>
+                        <span class="error-message">Your username can only contain numeric and alphabetic symbols!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace email" for="signup-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signup-email" placeholder="E-mail *" type="email" required>
+                        <span class="error-message">Enter a valid email address!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace password" for="signup-password">Password</label>
+                        <input class="full-width has-padding has-border" id="signup-password" placeholder="Password *" type="password" required>
+                        <a href="#0" class="hide-password">Show</a>
+                        <span class="error-message">Your password has to be at least 6 characters long!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" value="GET STARTED" type="submit">
+                    </p>
+                </form>
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div>
+            <div id="reset-password">
+                <p class="form-message">Lost your password? Please enter your email address.<br> You will receive a link to create a new password.</p>
+                <form class="form">
+                    <p class="fieldset">
+                        <label class="image-replace email" for="reset-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="reset-email" placeholder="E-mail" type="email">
+                        <span class="error-message">An account with this email does not exist!</span>
+                    </p>
+                    <p class="fieldset">
+                        <input class="full-width has-padding" value="Reset password" type="submit">
+                    </p>
+                </form>
+
+                <p class="form-bottom-message"><a href="#0">Back to log-in</a></p>
+            </div>
+            <a href="#0" class="close-form">Close</a>
+        </div>
+    </div>
+    <!-- Form code end -->
+    <!-- Js Script online start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Js Script online end -->
+    <!-- Js Script on our server end -->
+    <script src="assets/js/sign_up.js"></script>
+    <!-- Js Script on our server end -->
+
+</body>
+
+</html>
